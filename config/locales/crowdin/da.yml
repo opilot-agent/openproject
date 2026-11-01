@@ -1670,7 +1670,7 @@ da:
           JiraCreateLabelsJob:
             title: Opret mærkater
           JiraCreateParentChildRelationsFromSubtasksJob:
-            title: Create parent-child relations for '%{jira_project_name}'
+            title: Opret overordnet-underordnet-relationer for '%{jira_project_name}'
           JiraCreateProjectJob:
             title: Opret projektet '%{jira_project_name}'
           JiraCreateProjectRoleJob:
@@ -1889,8 +1889,8 @@ da:
               rest_line_text: Opretter tidsregistreringer for %{projects_number} projekter mere
               title: Opret tidsregistreringer
             '11':
-              rest_line_text: Downloading attachments for %{projects_number} more projects
-              title: Download attachments
+              rest_line_text: Henter vedhæftede filer for %{projects_number} projekter mere
+              title: Hent vedhæftede filer
             '2':
               rest_line_text: Henter sager og versioner for %{projects_number} projekter mere
               title: Hent projekternes sager og versioner
@@ -1913,8 +1913,8 @@ da:
               rest_line_text: Opretter arbejdspakker for %{projects_number} projekter mere
               title: Opret arbejdspakker
             '9':
-              rest_line_text: Creating parent-child relations from subtasks for %{projects_number} more projects
-              title: Create parent-child relations from subtasks
+              rest_line_text: Opretter overordnet-underordnet-relationer ud fra underopgaver for %{projects_number} projekter mere
+              title: Opret overordnet-underordnet-relationer ud fra underopgaver
       test:
         api_error: Jiras API returnerede fejlstatus %{status}. Kontrollér URL'en til din Jira-installation og legitimationsoplysningerne.
         basic_auth_password_invalid: Ugyldig adgangskode til basic auth. Kontrollér legitimationsoplysningerne i konfigurationen.
@@ -2263,9 +2263,9 @@ da:
     text_transform:
       errors:
         connection_failed: AI-tjenesten kunne ikke nås.
-        context_too_long: The text is too long for the AI model. Shorten it and try again.
+        context_too_long: Teksten er for lang til AI-modellen. Forkort den, og prøv igen.
         not_available: AI-assistenten er ikke tilgængelig.
-        rate_limited: The AI service is busy. Try again in a moment.
+        rate_limited: AI-tjenesten er optaget. Prøv igen om et øjeblik.
         timeout: AI-tjenesten svarede ikke i tide.
         upstream_error: AI-tjenesten returnerede en fejl.
       pane:
@@ -3868,7 +3868,7 @@ da:
           working: "%{day} er nu en arbejdsdag"
     caused_changes:
       budget_deleted: Budgettet er slettet
-      comment_retracted: Comment retracted
+      comment_retracted: Kommentaren er trukket tilbage
       dates_changed: Datoer ændret
       default_attribute_written: Skrivebeskyttede attributter skrevet
       forum_message_html: "<strong>Oprettet ud fra meddelelse i forum</strong> %{message_information}"
